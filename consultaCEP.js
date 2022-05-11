@@ -1,7 +1,7 @@
 /*Amanda 590673*/
 
-const fetch = require('node-fetch'); //npm install node-fetch npm i node-fetch@2.6.1
-var express = require('express'); //npm install express express-graphql graphql --save --force
+const fetch = require('node-fetch'); 
+var express = require('express'); 
 var { graphqlHTTP } = require('express-graphql');
 var { buildSchema } = require('graphql');
  
